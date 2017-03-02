@@ -21,6 +21,10 @@
     [super viewDidLoad];
 
 
+    //行不行啊,这样好吗
+    
+    UIView *view = [[UIView alloc] init];
+    view.backgroundColor = [UIColor blueColor];
 
     // 1. 判断当前设备是否支持苹果支付
     if (![PKPaymentAuthorizationViewController canMakePayments])
