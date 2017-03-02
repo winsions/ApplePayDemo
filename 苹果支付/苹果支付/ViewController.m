@@ -21,6 +21,10 @@
     [super viewDidLoad];
 
 
+    //hahah
+    //第二次
+    UIView *view1 = [[UIView alloc] init];
+    
     //行不行啊,这样好吗
     
     UIView *view = [[UIView alloc] init];
