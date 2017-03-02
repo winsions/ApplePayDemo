@@ -19,6 +19,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    //第三次了
+    UIView *view2 = [[UIView alloc] init];
 
 
     //hahah
