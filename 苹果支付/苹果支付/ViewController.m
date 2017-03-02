@@ -19,8 +19,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    //第三次了
+    UIView *view2 = [[UIView alloc] init];
 
 
+    //hahah
+    //第二次
+    UIView *view1 = [[UIView alloc] init];
+    
+    //行不行啊,这样好吗
+    
+    UIView *view = [[UIView alloc] init];
+    view.backgroundColor = [UIColor blueColor];
 
     // 1. 判断当前设备是否支持苹果支付
     if (![PKPaymentAuthorizationViewController canMakePayments])
